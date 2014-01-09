@@ -23,10 +23,10 @@ Gem::Specification.new do |s|
     app is working as intended.
   )
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
-  s.test_files = Dir["test/**/*"]
+  s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
+  s.test_files = Dir["spec/**/*"]
 
   s.add_development_dependency "sqlite3"
-  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "rspec"
   s.add_development_dependency "coveralls"
 end

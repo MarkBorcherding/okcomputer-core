@@ -1,4 +1,5 @@
 require "spec_helper"
+require "json"
 
 module OKComputer
   describe CheckCollection do

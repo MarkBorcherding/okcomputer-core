@@ -1,4 +1,3 @@
-require "okcomputer/engine"
 require "okcomputer/configuration"
 require "okcomputer/check"
 require "okcomputer/check_collection"

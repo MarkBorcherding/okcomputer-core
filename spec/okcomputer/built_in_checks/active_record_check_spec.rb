@@ -1,5 +1,11 @@
 require "spec_helper"
 
+module ::ActiveRecord
+  module Migrator
+
+  end
+end
+
 module OKComputer
   describe ActiveRecordCheck do
     it "is a subclass of Check" do

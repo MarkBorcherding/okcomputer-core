@@ -1,8 +1,11 @@
-[![Code Climate](https://codeclimate.com/github/sportngin/okcomputer.png)](https://codeclimate.com/github/sportngin/okcomputer)
-[![Build Status](https://travis-ci.org/sportngin/okcomputer.png)](https://travis-ci.org/sportngin/okcomputer)
-[![Coverage Status](https://coveralls.io/repos/sportngin/okcomputer/badge.png?branch=master)](https://coveralls.io/r/sportngin/okcomputer)
 
-# OK Computer
+# OK Computer - Core
+
+The core bits of [OK Computer][github-okcomputer] to allow the checks to be
+performed and delivered without Rails. Still in early development stages.
+
+
+...the rest is from the old OK Computer readme.
 
 Inspired by the ease of installing and setting up [fitter-happier] as a Rails
 application's health check, but frustrated by its lack of flexibility, OK
@@ -142,4 +145,5 @@ example:
 5. Create new Pull Request
 
 [fitter-happier]:https://rubygems.org/gems/fitter-happier
+[github-okcomptuer]:https://github.com/sportngin/okcomputer
 
