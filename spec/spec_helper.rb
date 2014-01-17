@@ -3,7 +3,7 @@ Coveralls.wear!
 
 require "rspec"
 
-require_relative "../lib/okcomputer"
+require_relative "../lib/okcomputer-core"
 
 # Load support files
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
